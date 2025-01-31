@@ -1,0 +1,299 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+:root
+{
+    --black:#212529;
+    --white:#FFFFFF;
+    --grey:#0f0f0f;
+    --red:#ed1c24;
+    --green:#28a745;
+}
+body{
+    background-color: #000000;
+
+}
+/* header styling start */
+
+a{
+    color:var(--white);
+    text-decoration: none;
+    font-family: poppins;
+    padding: 10px;
+
+}
+@font-face {
+    font-family: poppins;
+    src: url(../assets/font/Poppins-Regular.ttf);
+}
+header
+{
+    background-color: #000000;
+    width: 1348/px;
+    height: 90px;
+    border-bottom: 0.3px solid #212529;
+}
+#img
+{
+    margin-right: 200px;
+}
+.nav-btn
+{
+    color: var(--white);
+    background-color: transparent;
+    font-family: poppins;
+    border-radius: 80px;
+    padding: 12px;
+    border: 1px solid var(--white);
+    font-size: 14px;
+    cursor: pointer;
+}
+.nav-btn2
+{
+    color: var(--white);
+    background-color: var(--red);
+    font-family: poppins;
+    border-radius: 80px;
+    border: 1px solid var(--red);
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+i{
+    color: var(--red);
+    background-color: var(--white);
+    padding: 7px;
+    border-radius: 60px;
+}
+/* header styling end */
+
+/* body styling start */
+
+.childern1
+{
+    background-color: transparent;
+    border: 0.5px solid #212529;
+    height: 550px;
+    width: 500px;
+margin-left: 100px;
+}
+.childern2
+{
+    background-color: transparent;
+    border: 0.5px solid #212529;
+    height: 550px;
+    width: 500px;
+    margin-right: 200px;
+}
+.box1
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.book1:hover
+{
+    transition: 0.5s;
+  width: 750px;
+
+}
+.salt
+{
+    font-family: "Inter", serif;
+font-weight: 400; 
+text-align: center;
+color: #FFFFFF;
+padding-top: 40px;
+font-size: 16px;
+}
+.salt-para
+{
+    font-family: Apercu;
+    font-size: 14px;
+ color: #FFFFFFB3;   
+ text-align: center;
+ padding-top: 10px;
+}
+.salt-phone
+{
+    font-family: Apercu;
+    font-size: 14px;
+ color: #FFFFFFB3;   
+ text-align: center;
+ padding-top: 10px;
+}
+.salt-phone2
+{
+    font-family: Apercu;
+    font-size: 14px;
+ color: #FFFFFFB3;   
+ text-align: center;
+ padding-top: 10px;
+ padding-bottom: 60px;
+}
+
+h3{
+    font-family: butler;
+    font-size: 32px;
+    color: var(--white);
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+
+
+
+
+/* body styling end */
+
+
+
+
+/* footer styling start */
+
+.footer
+{
+    background-color:  #0f0f0f   ;
+    width: 1348px;
+    display: flex;
+
+}
+.f-section
+{
+    margin-left: 120px;
+margin-top: 60px;    
+}
+.f-para
+{
+    font-family: Apercu;
+    font-size: 15px;
+    padding-left: 125px;
+    color: #FFFFFFB3;
+    padding-top: 30px;
+}
+.term
+{
+    padding-top: 30px;
+    color: #FFFFFFB3;
+margin-left: 125px;
+font-size: 15px;
+font-family: "Inter", serif;
+cursor: pointer;
+
+}
+.site
+{
+    font-family: butler;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+.site-items
+{
+    font-family: Apercu;
+    font-size: 15px;
+    color: #FFFFFFB3;
+    cursor: pointer;
+    
+}
+.fchild2
+{
+    padding-left: 50px;
+    padding-top: 68px;
+   
+}
+.head-office
+{
+    font-family: "Inter", serif;
+font-size: 16px;
+font-weight: 700;
+color: #FFFFFF;
+}
+.fchild3-para
+{
+    font-family: Apercu;
+    line-height: 19px;
+    color: #FFFFFFB3;
+}
+.number
+{
+    font-family: Apercu;
+    color: rgba(255, 255, 255, 0.7)    ;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+.fchild3
+{
+    padding-left: 120px;
+    padding-top: 68px;
+}
+.fchild4
+{
+    padding-left: 120px;
+    padding-top: 68px;
+}
+.facebook
+{
+    background-color: #ed1c24;
+    color: #FFFFFF;
+    padding: 15px 18px;
+    border-radius: 120px;
+
+}
+.instagram
+{
+    background-color: #ed1c24;
+    color: #FFFFFF;
+    padding: 15px 18px;
+    border-radius: 120px;
+    font-size: 18px;
+}
+.ending-copyright
+{
+    font-family: "Inter", serif;
+  font-size: 14px;
+  font-weight: 600;
+   padding-left: 80px;
+}
+.ending
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    width: 1348px;
+    color: white;
+    padding-top: 15px;
+padding-bottom: 20px;
+text-align: center;
+}
+.zain
+{
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 600;
+     padding-right: 120px;
+     
+}
+
+/* footer styling end */
+
+@font-face {
+    font-family: butler;
+    src: url(../assets/font/Butler/Butler_Bold.otf);
+}
+@font-face {
+    font-family: Apercu;
+    src: url(../assets/font/Apercu/Apercu\ Pro\ Light.otf);
+}
+@font-face {
+    font-family: futurak;
+    src: url(../assets/font/futurak.ttf);
+}
