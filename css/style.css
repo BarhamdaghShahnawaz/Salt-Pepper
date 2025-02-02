@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');*
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 :root
 {
@@ -13,6 +15,11 @@
     --red:#ed1c24;
     --green:#28a745;
 }
+body{
+    background-color: #000000;
+
+}
+/* header styling start */
 
 a{
     color:var(--white);
@@ -28,14 +35,14 @@ a{
 header
 {
     background-color: #000000;
+    width: 1348/px;
     height: 90px;
-    
+    border-bottom: 0.3px solid #212529;
 }
 #img
 {
     margin-right: 200px;
 }
-
 .nav-btn
 {
     color: var(--white);
@@ -64,20 +71,7 @@ i{
     padding: 7px;
     border-radius: 60px;
 }
-.image1
-{
-    margin: 0 auto;
-    width: 100%;
-}
 
-@font-face {
-    font-family: Apercu;
-    src: url(../assets/font/Apercu/Apercu\ Pro\ Light.otf);
-}
-@font-face {
-    font-family: futurak;
-    src: url(../assets/font/futurak.ttf);
-}
 span{
     font-family: futurak;
     color: var(--white);
@@ -97,7 +91,7 @@ p{
 .welcome
 {
     background-color: #000000;
-    width: 100vw;
+    width: 1345px;
     font-size: 40px;
 }
 .welcome1{
@@ -108,14 +102,14 @@ p{
     color:#FFFFFFB3;
     background-color: #000000;
     display: block;
-    width:100vw ;
+    width:1345px ;
     padding-top: 10px;
 }
 
 .all-div
 {
     background-color: #000000;
-    width: 100vw;
+    width: 1345px;
 }
 #button1
 {
@@ -123,25 +117,32 @@ width: 174px ;
 height: 50px;
 font-weight: 500;
 cursor: pointer;
+}
 
+@font-face {
+    font-family: butler;
+    src: url(../assets/font/Butler/Butler_Bold.otf);
+}
+
+
+@font-face {
+    font-family: butler;
+    src: url(../assets/font/Butler/Butler_Bold.otf);
+}
+@font-face {
+    font-family: Apercu;
+    src: url(../assets/font/Apercu/Apercu\ Pro\ Light.otf);
+}
+@font-face {
+    font-family: futurak;
+    src: url(../assets/font/futurak.ttf);
 }
 
 .image-border
 {
     border-radius: 4px;
 }
-@font-face {
-    font-family: butler;
-    src: url(../assets/font/Butler/Butler_Bold.otf);
-}
-#para2
-{
-    font-family: butler;
-    font-size: 40px;
-    color: rgb(255, 255, 255);
-    margin-left: 160px;
-    margin-top: 60px;
-}
+
 .para3
 {
     margin-left: 170px;
@@ -210,7 +211,6 @@ padding-left: 3px;
     justify-content: space-between; 
     align-items: center;
     width: 100%;
-    background-color: #212529;
 }
 
 .childern1 {
@@ -235,565 +235,33 @@ padding-left: 3px;
 {
     padding-left: 120px;
 }
-.para4
-{
-    font-family: futurak;
-font-size: 52px;
-color: #FFFFFF;
-text-align: center;
-background-color: #000000;
-    width: 1348px;
-    padding-top: 30px;
-    
-}
-.para4-span
-{
-    font-family: butler;
-    font-size: 60px;
-}
-h5
-{
-    font-family: futurak;
-font-size: 24px;
-color: #FFFFFF;
-padding-left: 130px;
 
-
-}
-.first-span
-{
-    font-family: butler;
-font-size: 24px;
-
+#immu{
+    margin-right: 40px;
 }
 
-#section4-location
-{
-    color: #FFFFFFB3;
-    padding-left: 90px;
-    
-}
-.section4-span
-{
-    padding-left: 140px;
-    font-family: apercu;
-    font-size: 14px;
-    color: #FFFFFFB3;
-}
-#section4-phone
-{
-    padding-left: 170px;
-    font-family: apercu;
-    font-size: 14px;
-    color: #FFFFFFB3;
-}
-#islamabad2
-{
-    font-size: 12px;
+#section4-islamabad{
     color: #ed1c24;
-    letter-spacing: 5.76px;
-    padding-left: 190px;
-    
-}
-.section4-img
-{
-    padding-left: 70px;
-}
-#section4-btn{
-    background-color: transparent;
-    color: #FFFFFF;
-    padding: 8px 17px 8px;
-    border-radius: 40px;
-    border: 0.5px solid #808080;
-    margin-left:170px ;
-    cursor: pointer;
-}
-.row
-{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 30px;
-    background-color: #000000;
-    width: 1348px;
-}
-#dha
-{
-    font-size: 12px;
-    color: #ed1c24;
-    letter-spacing: 5.76px;
-    padding-left: 230px; 
-}
-#dha-location
-{
-    color: #FFFFFFB3;
-    padding-left: 150px;
-}
-.dha-span
-{
-    padding-left: 70px;
     font-family: apercu;
-    font-size: 14px;
-    color: #FFFFFFB3;
-}
-.bahria-span{
-    padding-left: 100px;
-    font-family: apercu;
-    font-size: 14px;
-    color: #FFFFFFB3;
-}
-#gujar-location
-{
-    color: #FFFFFFB3;
-    padding-left: 150px;
-}
-.gujar-span
-{
-    padding-left: 70px;
-    font-family: apercu;
-    font-size: 14px;
-    color: #FFFFFFB3;
-}
-#gujrat-location
-{
-    color: #FFFFFFB3;
-    padding-left: 150px;
-}
-#lahore-location
-{
-    color: #FFFFFFB3;
-    padding-left: 100px;
-}
-.lahore-span
-{
-    padding-left: 110px;
-    font-family: apercu;
-    font-size: 14px;
-    color: #FFFFFFB3; 
-}
-#lahore-phone
-{
-    color: #FFFFFFB3;
-    padding-left: 145px;
-}
-#lahore
-{
-    font-size: 12px;
-    color: #ed1c24;
-    letter-spacing: 5.76px;
-    padding-left: 200px; 
-}
-#gujrat
-{
-    font-size: 12px;
-    color: #ed1c24;
-    letter-spacing: 5.76px;
-    padding-left: 200px;  
-}
-#sahiwal
-{
-    font-size: 12px;
-    color: #ed1c24;
-    letter-spacing: 5.76px;
-    padding-left: 200px;  
-}
-#sahiwal-location
-{
-    color: #FFFFFFB3;
-    padding-left: 100px;
-}
-.sahiwal-span{
-    padding-left: 110px;
-    font-family: apercu;
-    font-size: 14px;
-    color: #FFFFFFB3; 
-}
-#gujrat-btn
-{
-    background-color: transparent;
-    color: #FFFFFF;
-    padding: 8px 17px 8px;
-    border-radius: 40px;
-    border: 0.5px solid #808080;
-    margin-left:170px ;
-    margin-top: 20px;
-    cursor: pointer;
-}
-.para5-span
-{
-    font-family: butler;
-    font-size: 48px;
-}
-.para5{
-    font-family: futurak;
-    font-size: 52px;
-    color: #FFFFFF;
     text-align: center;
-    background-color: #212529;
-        width: 1348px;
-        padding-top: 80px;
-}
-.section5-img
-{
-    padding-top: 20px;
-}
-.gujranwala
-{
-    font-size: 16px;
-    color: #ed1c24;
-    letter-spacing: 5.76px;
-    padding-left: 200px;  
-}
-#section5-btn
-{
-    background-color: var(--green);
-    color: #FFFFFF;
-    padding: 8px 17px 8px;
-    border-radius: 40px;
-    border: 0.5px solid var(--green);
-    margin-left:170px ;
-}
-.btn-arrow2
-{
-    color: var(--green);
-
-}
-.section5
-{
-    display: flex;
-    justify-content: space-evenly;
-
-}
-.childern11
-{
-    padding-right: 910px;
-}
-#gujranwala
-{
-    color: #ed1c24;
-    font-family: apercu;
     letter-spacing: 7.68px;
     font-size: 16px;
     font-weight: 500;
-    padding-left: 10px;
+    padding-left: 120px;
 }
-#salt2
-{
+
+#section4-salt{
     font-family: futurak;
     font-size: 32px;
-    padding-left: 10px;
-
-}
-#location2
-{
-    color: #FFFFFFB3;
-    padding-left: 10px;
-}
-#phone2
-{
-    color: #FFFFFFB3;
-    padding-left: 10px;
-}
-#btn-2
-{
-    background-color: var(--green);
-    color: #FFFFFF;
-    padding: 8px 17px 8px;
-    border-radius: 40px;
-    border: 0.5px solid #808080;
-    margin-left:10px ;
-    cursor: pointer;
-}
-.section6
-{
-    font-family: butler;
-    font-size: 26px;
-}
-.box1
-{
-    background-color: var(--white);
-    width: 500px;
-    height: 275px;
-    border-radius: 4px;
-
-}
-.section6-img
-{
-    padding-left: 110px;
-    padding-top: 40px;
-}
-#openingsoon
-{
-    color: #ed1c24;
-    font-family: apercu;
-    letter-spacing: 4.8px;
-    font-size: 10px;
-    font-weight: 500;
-    padding-left: 70px;
-    padding-top: 20px;
-}
-.section6-salt
-{
-    font-family: poppins;
-    font-size: 24px;
-    padding-left: 60px;
-}
-.section6-express{
-    font-family: butler;
-    color: #000000;
-    font-size: 21px;
-    padding-left: 100px;
-}
-.container
-{
-    display: flex;
-    justify-content: space-between;
-}
-.season6-span
-{
-    font-family: poppins;
-    font-size: 26px;
-    font-weight: 500;
-}
-.section6-span2
-{
-    font-family: butler;
-    font-size: 48px;
-}
-
-.box1{
-    background-color: #FFFFFF;
-    border-radius: 4px;
-    width: 350px;
-    height: 250px;
-    margin-left: 70px;
-}
-.section6-img
-{
-padding-left: 140px;
-}
-.openingsoon
-{
-    color: #ed1c24;
-    letter-spacing: 4.8px;
-    font-family: Apercu;
-    font-size: 10px;
-    padding-top: 20px;
-    padding-left: 110px;
-}
-#section6-salt
-{
-    font-family: "Inter", serif;
-    font-weight: 600;
-    font-size: 24px;
-    padding-left: 90px;
-
-}
-#section6-express
-{
-    color: black;
-    font-size: 21px;
-    font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 40px;
-}
-#section6-burewala
-{
-    color: black;
-    font-size: 21px;
-    font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 123px; 
-}
-#section6-blue
-{
-    color: black;
-    font-size: 21px;
-    font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 100px; 
-}
-.rawalpindi
-{
-    color: black;
-    font-size: 21px;
-    font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 15px; 
-}
-.sharqpur
-{
-    color: black;
-    font-size: 21px;
-    font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 30px; 
-}
-.sheikhupura
-{
-    color: black;
-    font-size: 21px;
-    font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 10px; 
-}
-#section6-dha
-{
-    color: black;
-    font-size: 21px;
-    font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 142px; 
-}
-#section6-lahore
-{
-    color: black;
-    font-size: 21px;
-    font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 137px; 
-}
-.social
-{
-    color: rgb(33, 37, 41)    ;
-font-family: butler;
-font-size: 32px;
-font-weight: 500;
-background-color: #000000;
-width: 1348px;
-padding-top: 90px;
-text-align: center;
-
-}
-.section-7
-{
-    display: flex;
-    background-color: #000000;
-    width: 1348px;
-    justify-content: space-around;
-    padding-top: 50px;
-height: 350px;
-
-}
-.footer
-{
-    background-color:  #0f0f0f   ;
-    display: flex;
-
-}
-.f-section
-{
-    margin-left: 120px;
-margin-top: 60px;    
-}
-.f-para
-{
-    font-family: Apercu;
-    font-size: 15px;
-    padding-left: 125px;
-    color: #FFFFFFB3;
-    padding-top: 30px;
-}
-.term
-{
-    padding-top: 30px;
-    color: #FFFFFFB3;
-margin-left: 125px;
-font-size: 15px;
-
-
-}
-.site
-{
-    font-family: butler;
-    font-size: 16px;
-
-}
-.site-items
-{
-    font-family: Apercu;
-    font-size: 15px;
-    color: #FFFFFFB3;
-    cursor: pointer;
-    
-}
-.fchild2
-{
-    padding-left: 50px;
-    padding-top: 68px;
-   
-}
-.head-office
-{
-    font-family: "Inter", serif;
-    font-optical-sizing: auto;
-font-size: 16px;
-font-weight: 700;
-color: #FFFFFF;
-}
-.fchild3-para
-{
-    font-family: Apercu;
-    line-height: 19px;
-    color: #FFFFFFB3;
-}
-.number
-{
-    font-family: Apercu;
-    color: rgba(255, 255, 255, 0.7)    ;
-    font-size: 15px;
-    cursor: pointer;
-    
-}
-.fchild3
-{
     padding-left: 120px;
-    padding-top: 68px;
 }
-.fchild4
-{
-    padding-left: 120px;
-    padding-top: 68px;
-}
-.facebook
-{
-    background-color: #ed1c24;
-    color: #FFFFFF;
-    padding: 15px 18px;
-    border-radius: 120px;
 
+#section4-location{
+    color: #FFFFFFB3;
+    padding-left: 120px;
 }
-.instagram
-{
-    background-color: #ed1c24;
-    color: #FFFFFF;
-    padding: 15px 18px;
-    border-radius: 120px;
-    font-size: 18px;
-}
-.ending-copyright
-{
-    font-family: "Inter", serif;
-  font-size: 14px;
-  font-weight: 600;
-   padding-left: 80px;
-}
-.ending
-{
-    display: flex;
-    justify-content: space-between;
-    background-color: #000000;
-    width: 1348px;
-    color:#FFFFFF;
-    
-    padding-top: 15px;
-padding-bottom: 20px;
-text-align: center;
-}
-.zain
-{
-    font-family: "Inter", serif;
-    font-size: 14px;
-    font-weight: 600;
-     padding-right: 120px;
-     
+
+#section4-phone{
+    color: #FFFFFFB3;
+    padding-left: 120px;
 }

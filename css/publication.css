@@ -147,13 +147,7 @@ h3{
 }
 
 
-
-
-
-
 /* body styling end */
-
-
 
 
 /* footer styling start */
@@ -161,7 +155,7 @@ h3{
 .footer
 {
     background-color:  #0f0f0f   ;
-    width: 1348px;
+    width: 100%;
     display: flex;
 
 }
