@@ -1,50 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
-:root
-{
-    --black:#212529;
-    --white:#FFFFFF;
-    --grey:#0f0f0f;
-    --red:#ed1c24;
-    --green:#28a745;
+
+:root {
+    --black: #212529;
+    --white: #FFFFFF;
+    --grey: #0f0f0f;
+    --red: #ed1c24;
+    --green: #28a745;
 }
-body{
+
+body {
     background-color: #000000;
 
 }
+
 /* header styling start */
 
-a{
-    color:var(--white);
+a {
+    color: var(--white);
     text-decoration: none;
     font-family: poppins;
     padding: 10px;
 
 }
+
 @font-face {
     font-family: poppins;
     src: url(../assets/font/Poppins-Regular.ttf);
 }
-header
-{
+
+header {
     background-color: #000000;
-    width: 1348/px;
+    width: 1348px;
     height: 90px;
     border-bottom: 0.3px solid #212529;
 }
-#img
-{
+
+#img {
     margin-right: 200px;
 }
-.nav-btn
-{
+
+.nav-btn {
     color: var(--white);
     background-color: transparent;
     font-family: poppins;
@@ -54,8 +56,8 @@ header
     font-size: 14px;
     cursor: pointer;
 }
-.nav-btn2
-{
+
+.nav-btn2 {
     color: var(--white);
     background-color: var(--red);
     font-family: poppins;
@@ -65,58 +67,62 @@ header
     font-size: 14px;
     cursor: pointer;
 }
-i{
+
+i {
     color: var(--red);
     background-color: var(--white);
     padding: 7px;
     border-radius: 60px;
 }
 
-span{
+span {
     font-family: futurak;
     color: var(--white);
     font-size: 52px;
 
 }
-.span1{
+
+.span1 {
     font-family: futurak;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     font-size: 40px;
     font-weight: 400;
 }
-p{
+
+p {
     font-family: Apercu;
     color: var(--white);
 }
-.welcome
-{
+
+.welcome {
     background-color: #000000;
     width: 1345px;
     font-size: 40px;
 }
-.welcome1{
+
+.welcome1 {
     padding-top: 100px;
     padding-left: 400px;
 }
-#new1{
-    color:#FFFFFFB3;
+
+#new1 {
+    color: #FFFFFFB3;
     background-color: #000000;
     display: block;
-    width:1345px ;
+    width: 1345px;
     padding-top: 10px;
 }
 
-.all-div
-{
+.all-div {
     background-color: #000000;
     width: 1345px;
 }
-#button1
-{
-width: 174px ;
-height: 50px;
-font-weight: 500;
-cursor: pointer;
+
+#button1 {
+    width: 174px;
+    height: 50px;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 @font-face {
@@ -124,32 +130,26 @@ cursor: pointer;
     src: url(../assets/font/Butler/Butler_Bold.otf);
 }
 
-
-@font-face {
-    font-family: butler;
-    src: url(../assets/font/Butler/Butler_Bold.otf);
-}
 @font-face {
     font-family: Apercu;
     src: url(../assets/font/Apercu/Apercu\ Pro\ Light.otf);
 }
+
 @font-face {
     font-family: futurak;
     src: url(../assets/font/futurak.ttf);
 }
 
-.image-border
-{
+.image-border {
     border-radius: 4px;
 }
 
-.para3
-{
+.para3 {
     margin-left: 170px;
     color: #FFFFFFB3;
 }
-#islamabad
-{
+
+#islamabad {
     color: #ed1c24;
     font-family: apercu;
     letter-spacing: 7.68px;
@@ -157,127 +157,439 @@ cursor: pointer;
     font-weight: 500;
     padding-left: 120px;
 }
-#salt
-{
+
+#salt {
     font-family: futurak;
     font-size: 32px;
     padding-left: 120px;
 
 }
-#restaurent
-{
+
+#restaurent {
     font-family: Apercu;
     font-size: 32px;
 }
-#phone
-{
+
+#phone {
     color: #FFFFFFB3;
     padding-left: 120px;
 
 }
-#location
-{
+
+#location {
     color: #FFFFFFB3;
     padding-left: 120px;
-    
-}
-#phone-btn
-{
-    color: #FFFFFFB3;
-background-color: transparent;
-padding-left: 3px;
 
 }
-#location-btn
-{
+
+#phone-btn {
     color: #FFFFFFB3;
     background-color: transparent;
     padding-left: 3px;
 
 }
-#btn-1
-{
+
+#location-btn {
+    color: #FFFFFFB3;
+    background-color: transparent;
+    padding-left: 3px;
+
+}
+
+#btn-1 {
     background-color: transparent;
     color: #FFFFFF;
     padding: 8px 17px 8px;
     border-radius: 40px;
     border: 0.5px solid #808080;
-    margin-left:120px ;
+    margin-left: 120px;
     cursor: pointer;
 }
+
 .section3 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
 .childern1 {
-    flex: 1; 
-    padding-right: 90px; 
+    flex: 1;
 }
 
 .childern2 {
-    flex: 1; 
+    flex: 1;
     display: flex;
-    justify-content: flex-end; 
-  
+    justify-content: flex-end;
+
 }
 
 .childern2 img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px; 
- 
+    border-radius: 10px;
+
 }
-#image2
-{
+
+#image2 {
     padding-left: 120px;
 }
 
-#immu{
+#immu {
     margin-right: 40px;
 }
 
-.section4-head{
+.parent-1 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.sec-4 {
+    width: 1517px;
+}
+
+.section4-head {
     margin-top: 50px;
     margin-left: 550px;
     font-size: 3rem;
     color: #FFFFFF;
 }
 
-.section4-span{
+.section4-span {
     color: #FFFFFF;
     font-weight: 1rem;
     margin-left: 70px;
 }
 
-#section4-islamabad{
+#section4-islamabad {
+    color: #b3151a;
+    font-family: apercu;
+    letter-spacing: 7.68px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    padding-left: 230px;
+}
+
+#section4-salt {
+    font-family: futurak;
+    font-size: 1.5rem;
+    padding-left: 160px;
+}
+
+#section4-location {
+    color: #FFFFFFB3;
+    padding-left: 150px;
+}
+
+#section4-location2 {
+    color: #FFFFFFB3;
+    padding-left: 100px;
+}
+
+#section4-location2 {
+    color: #FFFFFFB3;
+    padding-left: 70px;
+}
+
+#section4-phone {
+    color: #FFFFFFB3;
+    margin-top: 20px;
+    padding-left: 190px;
+}
+
+.section4-image {
+    margin-left: 100px;
+}
+
+.section4-image2 {
+    margin-top: 12px;
+    margin-left: 100px;
+}
+
+#section4-restaurent {
+    font-family: poppins;
+    font-weight: none;
+    font-size: 1.6rem;
+}
+
+#btn-2 {
+    background-color: transparent;
+    color: #FFFFFF;
+    padding: 8px 17px 8px;
+    border-radius: 40px;
+    border: 0.5px solid #808080;
+    margin-top: 10px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+.section4-image5 {
+    margin-top: 12px;
+    margin-left: 100px;
+    width: 350px;
+}
+
+.sec-5 {
+    width: 1517px;
+}
+
+.para5-span {
+    font-family: butler;
+    font-size: 48px;
+}
+
+.para5 {
+    font-family: futurak;
+    font-size: 52px;
+    color: #FFFFFF;
+    text-align: center;
+
+    width: 1348px;
+    padding-top: 80px;
+}
+
+.section5-img {
+    padding-top: 20px;
+}
+
+.gujranwala {
+    font-size: 16px;
+    color: #ed1c24;
+    letter-spacing: 5.76px;
+    padding-left: 200px;
+}
+
+#section5-btn {
+    background-color: var(--green);
+    color: #FFFFFF;
+    padding: 8px 17px 8px;
+    border-radius: 40px;
+    border: 0.5px solid var(--green);
+    margin-left: 170px;
+}
+
+#sbtn-arrow21 {
+    color: var(--green);
+
+}
+
+.section5 {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.childern11 {
+    padding-right: 910px;
+}
+
+#gujranwala {
     color: #ed1c24;
     font-family: apercu;
     letter-spacing: 7.68px;
     font-size: 16px;
     font-weight: 500;
-    padding-left: 120px;
+    padding-left: 10px;
 }
 
-#section4-salt{
+#salt2 {
     font-family: futurak;
     font-size: 32px;
-    padding-left: 120px;
+    padding-left: 10px;
+
 }
 
-#section4-location{
+#location2 {
     color: #FFFFFFB3;
-    padding-left: 120px;
+    padding-left: 10px;
 }
 
-#section4-phone{
+#phone2 {
     color: #FFFFFFB3;
-    padding-left: 120px;
+    padding-left: 10px;
 }
 
-.section4-image{
+#btn-21 {
+    background-color: var(--green);
+    color: #FFFFFF;
+    padding: 8px 17px 8px;
+    border-radius: 40px;
+    border: 0.5px solid #808080;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.section6 {
+    font-family: butler;
+    font-size: 26px;
+}
+
+.box1 {
+    background-color: var(--white);
+    width: 500px;
+    height: 275px;
+    border-radius: 4px;
+
+}
+
+.section6-img {
+    padding-left: 110px;
+    padding-top: 40px;
+}
+
+#openingsoon {
+    color: #ed1c24;
+    font-family: apercu;
+    letter-spacing: 4.8px;
+    font-size: 10px;
+    font-weight: 500;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.section6-salt {
+    font-family: poppins;
+    font-size: 24px;
+    padding-left: 60px;
+}
+
+.section6-express {
+    font-family: butler;
+    color: #000000;
+    font-size: 21px;
+    padding-left: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.season6-span {
+    font-family: poppins;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.section6-span2 {
+    font-family: butler;
+    font-size: 48px;
+}
+
+.box1 {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    width: 350px;
+    height: 250px;
     margin-left: 70px;
+}
+
+.section6-img {
+    padding-left: 140px;
+}
+
+.openingsoon {
+    color: #ed1c24;
+    letter-spacing: 4.8px;
+    font-family: Apercu;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-left: 110px;
+}
+
+#section6-salt {
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-left: 90px;
+
+}
+
+#section6-express {
+    color: black;
+    font-size: 21px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 40px;
+}
+
+#section6-burewala {
+    color: black;
+    font-size: 21px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 123px;
+}
+
+#section6-blue {
+    color: black;
+    font-size: 21px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 100px;
+}
+
+.rawalpindi {
+    color: black;
+    font-size: 21px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 15px;
+}
+
+.sharqpur {
+    color: black;
+    font-size: 21px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 30px;
+}
+
+.sheikhupura {
+    color: black;
+    font-size: 21px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+}
+
+#section6-dha {
+    color: black;
+    font-size: 21px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 142px;
+}
+
+#section6-lahore {
+    color: black;
+    font-size: 21px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 137px;
+}
+
+.social {
+    color: rgb(33, 37, 41);
+    font-family: butler;
+    font-size: 32px;
+    font-weight: 500;
+    background-color: #000000;
+    width: 1348px;
+    padding-top: 90px;
+    text-align: center;
+
+}
+
+.section-7 {
+    display: flex;
+    background-color: #000000;
+    width: 1348px;
+    justify-content: space-around;
+    padding-top: 50px;
+    height: 350px;
+
 }
