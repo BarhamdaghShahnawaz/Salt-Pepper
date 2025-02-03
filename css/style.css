@@ -105,6 +105,10 @@ p {
     padding-left: 400px;
 }
 
+.section1-btn {
+    margin-left: 300px;
+}
+
 #new1 {
     color: #FFFFFFB3;
     background-color: #000000;
@@ -127,7 +131,7 @@ p {
 
 @font-face {
     font-family: butler;
-    src: url(../assets/font/Butler/Butler_Bold.otf);
+    src: url(../assets/font/Butler/Butler_Regular.otf);
 }
 
 @font-face {
@@ -343,12 +347,10 @@ p {
 
 .para5 {
     font-family: futurak;
-    font-size: 52px;
+    font-size: 3rem;
     color: #FFFFFF;
-    text-align: center;
-
-    width: 1348px;
-    padding-top: 80px;
+    margin-left: 600px;
+    padding-top: 90px;
 }
 
 .section5-img {
@@ -422,154 +424,43 @@ p {
     cursor: pointer;
 }
 
-.section6 {
-    font-family: butler;
-    font-size: 26px;
-}
-
-.box1 {
-    background-color: var(--white);
-    width: 500px;
-    height: 275px;
-    border-radius: 4px;
-
-}
-
-.section6-img {
-    padding-left: 110px;
-    padding-top: 40px;
-}
-
-#openingsoon {
-    color: #ed1c24;
-    font-family: apercu;
-    letter-spacing: 4.8px;
-    font-size: 10px;
-    font-weight: 500;
-    padding-left: 70px;
-    padding-top: 20px;
-}
-
-.section6-salt {
-    font-family: poppins;
-    font-size: 24px;
-    padding-left: 60px;
-}
-
-.section6-express {
-    font-family: butler;
-    color: #000000;
-    font-size: 21px;
-    padding-left: 100px;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.season6-span {
-    font-family: poppins;
-    font-size: 26px;
-    font-weight: 500;
+.s6-para4 {
+    font-size: 3rem;
+    margin-left: 600px;
+    margin-top: 70px;
+    color: #FFFFFF;
 }
 
 .section6-span2 {
-    font-family: butler;
-    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+    margin-left: 400px;
 }
 
-.box1 {
-    background-color: #FFFFFF;
-    border-radius: 4px;
-    width: 350px;
-    height: 250px;
-    margin-left: 70px;
+.season6-span {
+    font-family: apercu;
+    font-size: 1.5rem;
+    color: #FFFFFF;
 }
 
 .section6-img {
-    padding-left: 140px;
+    width: 420px;
+    margin-top: 30px;
+    margin-left: 90px;
+    border-radius: 5px;
 }
 
-.openingsoon {
-    color: #ed1c24;
-    letter-spacing: 4.8px;
-    font-family: Apercu;
-    font-size: 10px;
-    padding-top: 20px;
-    padding-left: 110px;
+.section-6-1img {
+    width: 425px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 5px;
 }
 
-#section6-salt {
-    font-family: "Inter", serif;
-    font-weight: 600;
-    font-size: 24px;
-    padding-left: 90px;
-
-}
-
-#section6-express {
-    color: black;
-    font-size: 21px;
-    font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 40px;
-}
-
-#section6-burewala {
-    color: black;
-    font-size: 21px;
-    font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 123px;
-}
-
-#section6-blue {
-    color: black;
-    font-size: 21px;
-    font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 100px;
-}
-
-.rawalpindi {
-    color: black;
-    font-size: 21px;
-    font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 15px;
-}
-
-.sharqpur {
-    color: black;
-    font-size: 21px;
-    font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 30px;
-}
-
-.sheikhupura {
-    color: black;
-    font-size: 21px;
-    font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 10px;
-}
-
-#section6-dha {
-    color: black;
-    font-size: 21px;
-    font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 142px;
-}
-
-#section6-lahore {
-    color: black;
-    font-size: 21px;
-    font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 137px;
+.sec6-child1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 .social {
@@ -584,10 +475,22 @@ p {
 
 }
 
+.social {
+    color: rgb(33, 37, 41);
+    font-family: butler;
+    font-size: 32px;
+    font-weight: 500;
+    background-color: #000000;
+    width: 1348px;
+    padding-top: 90px;
+    margin-left: 100px;
+
+}
+
 .section-7 {
     display: flex;
     background-color: #000000;
-    width: 1348px;
+    width: 1517px;
     justify-content: space-around;
     padding-top: 50px;
     height: 350px;
