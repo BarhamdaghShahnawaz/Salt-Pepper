@@ -496,3 +496,130 @@ p {
     height: 350px;
 
 }
+
+.footer {
+    background-color: #0f0f0f;
+    margin-top: 50px;
+    padding-left: 20px;
+    width: 1517px;
+    display: flex;
+
+}
+
+.f-section {
+    margin-left: 120px;
+    margin-top: 60px;
+}
+
+.f-para {
+    font-family: Apercu;
+    font-size: 15px;
+    padding-left: 125px;
+    color: #FFFFFFB3;
+    padding-top: 30px;
+}
+
+.term {
+    padding-top: 30px;
+    color: #FFFFFFB3;
+    margin-left: 125px;
+    font-size: 15px;
+
+
+}
+
+.site {
+    font-family: butler;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.site-items {
+    font-family: Apercu;
+    font-size: 15px;
+    color: #FFFFFFB3;
+    cursor: pointer;
+
+}
+
+.fchild2 {
+    padding-left: 50px;
+    padding-top: 68px;
+
+}
+
+.head-office {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.fchild3-para {
+    font-family: Apercu;
+    line-height: 19px;
+    color: #FFFFFFB3;
+}
+
+.number {
+    font-family: Apercu;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.fchild3 {
+    padding-left: 120px;
+    padding-top: 68px;
+}
+
+.fchild4 {
+    padding-left: 120px;
+    padding-top: 68px;
+}
+
+.facebook {
+    background-color: #ed1c24;
+    color: #FFFFFF;
+    padding: 15px 18px;
+    border-radius: 120px;
+
+}
+
+.instagram {
+    background-color: #ed1c24;
+    color: #FFFFFF;
+    padding: 15px 18px;
+    border-radius: 120px;
+    font-size: 18px;
+}
+
+.ending-copyright {
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 80px;
+}
+
+.ending {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 1348px;
+
+
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.Barhamdagh {
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 120px;
+
+}
