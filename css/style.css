@@ -240,10 +240,22 @@ padding-left: 3px;
     margin-right: 40px;
 }
 
+.section4-head{
+    margin-top: 50px;
+    margin-left: 550px;
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+.section4-span{
+    color: #FFFFFF;
+    font-weight: 1rem;
+    margin-left: 70px;
+}
+
 #section4-islamabad{
     color: #ed1c24;
     font-family: apercu;
-    text-align: center;
     letter-spacing: 7.68px;
     font-size: 16px;
     font-weight: 500;
@@ -264,4 +276,8 @@ padding-left: 3px;
 #section4-phone{
     color: #FFFFFFB3;
     padding-left: 120px;
+}
+
+.section4-image{
+    margin-left: 70px;
 }
